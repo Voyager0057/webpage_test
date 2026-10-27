@@ -54,3 +54,5 @@ Public-origin acceptance must follow a successful deployment. See [deployment in
 Record actual results in `VALIDATION.md`. Do not count skipped PostgreSQL tests as passes or mobile emulation as Android/iOS device acceptance. The final course release still needs at least one real desktop OS and one real mobile OS recorded with their browser versions and completed tasks.
 
 Latest local Ningbo result: 23 core JUnit tests, 7 HTTP/H2 tests, 48 independent HTTP checks, 5 bilingual checks and 14 desktop/mobile-emulation journeys passed. PostgreSQL Testcontainers is configured but skipped locally without Docker. See VALIDATION.md for evidence and remaining device/hosting checks.
+
+Remote release evidence: [GitHub Actions run 40518306168](https://github.com/Voyager0057/webpage_test/actions/runs/40518306168) passed on the first uploaded application commit. PostgreSQL Testcontainers ran successfully there (1 passed, 0 skipped), alongside 23 core JUnit tests, 7 HTTP integration tests, the frontend build, 48 independent HTTP checks, bilingual coverage and 14 browser journeys.

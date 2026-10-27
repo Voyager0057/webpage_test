@@ -12,6 +12,17 @@
     "browserJourneysPassed": 14
   },
   "productionBuild": "passed",
-  "publicDeployment": "pending hosting selection",
-  "physicalMobileTested": false
+  "publicDeployment": "pending free Render service provisioning",
+  "physicalMobileTested": false,
+  "remoteCI": {
+    "commit": "f31043450af0d7c76d43fe5f90b6fcd7d5f61f42",
+    "runUrl": "https://github.com/Voyager0057/webpage_test/actions/runs/40518306168",
+    "status": "success",
+    "junitCorePassed": 23,
+    "httpIntegrationPassed": 7,
+    "postgresIntegrationPassed": 1,
+    "skipped": 0,
+    "browserJourneysPassed": 14,
+    "httpAcceptancePassed": 48
+  }
 }
