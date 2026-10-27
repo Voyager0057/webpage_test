@@ -1,0 +1,18 @@
+# Optional complete deployment: React + Spring Boot, served from one HTTPS origin.
+# This creates only a free web service, not a paid database or disk.
+services:
+  - type: web
+    name: homewise-webpage-test
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: JAVA_TOOL_OPTIONS
+        value: '-XX:MaxRAMPercentage=60 -XX:InitialRAMPercentage=15 -XX:+UseSerialGC'
+      - key: SPRING_DATASOURCE_URL
+        value: 'jdbc:h2:mem:homewise;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE'
+      - key: HOMEWISE_ALLOWED_ORIGINS
+        value: https://voyager0057.github.io

@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-27T11:43:08.945027+00:00",
+  "engineVersion": "2.0.0",
+  "policyVersion": "NB-2026.10-v2",
+  "javaSuites": [
+    {
+      "name": "com.grp.finance.api.FinanceApiIT",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.grp.finance.api.PostgresIT",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1"
+    },
+    {
+      "name": "com.grp.finance.core.FinanceEngineTest",
+      "tests": "23",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "httpChecksPassed": 48,
+  "i18nPassed": 5,
+  "browserJourneysPassed": 14,
+  "browserProjects": [
+    "desktop-chromium",
+    "Pixel 7 emulation"
+  ],
+  "deployment": "Local only; no upload or publication",
+  "limitations": [
+    "PostgreSQL Testcontainers skipped: Docker unavailable",
+    "No physical Android/iOS device acceptance",
+    "No Docker image build or remote CI/Pages run",
+    "PF contribution ceiling remains an explicitly provisional reference; social insurance and lending parameters require user confirmation"
+  ],
+  "sourceDigestSha256": "10508f26982c07c9ef5682bfcce52b2d142999f8939bce73da8d7525c5081851",
+  "localRestart": "Verified clean shutdown wait and restart; health UP, homepage HTTP 200, default calculation succeeded."
+}

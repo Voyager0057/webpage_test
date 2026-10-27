@@ -1,0 +1,24 @@
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never
+spring:
+  application:
+    name: homewise-finance
+  datasource:
+    url: jdbc:h2:file:./.runtime/homewise;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password: ""
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+logging:
+  level:
+    org.hibernate.SQL: WARN

@@ -1,0 +1,87 @@
+{
+  "activeProfile": "ningbo-2026.json",
+  "reviewedAt": "2026-10-27",
+  "references": [
+    {
+      "id": "tax",
+      "title": "居民工资薪金累计预扣规定",
+      "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810744/n3752930/n3752993/n3758748/c3957039/content.html",
+      "issuer": "国家税务总局",
+      "effectiveFrom": "2019-01-01",
+      "note": "年度税率表、累计减除费用及预扣方法。",
+      "reviewStatus": "已核对计算规则"
+    },
+    {
+      "id": "bonus",
+      "title": "全年一次性奖金计税政策",
+      "url": "https://jiangsu.chinatax.gov.cn/art/2023/8/28/art_8349_432405.html",
+      "issuer": "财政部、国家税务总局",
+      "effectiveFrom": "2023-01-01",
+      "note": "符合条件的奖金可单独计税，执行至2027年12月31日。",
+      "reviewStatus": "已核对计算规则"
+    },
+    {
+      "id": "deduction",
+      "title": "专项附加扣除暂行办法",
+      "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810744/n3752930/n3752974/c3963375/content.html",
+      "issuer": "国务院",
+      "effectiveFrom": "2019-01-01",
+      "note": "符合条件的住房贷款利息定额扣除1000元/月、最长240个月；资格由用户确认。",
+      "reviewStatus": "已核对计算规则"
+    },
+    {
+      "id": "contribution",
+      "title": "宁波2026年公积金缴存说明",
+      "url": "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html",
+      "issuer": "海曙区人民政府",
+      "effectiveFrom": "2026-07-01",
+      "note": "缴存比例5%–12%，单位与个人一致；区县下限2660或2430元。38907元为六月通知的临时上限，后续上限未独立核实，须输入已确认值。",
+      "reviewStatus": "官方说明已查阅；上限待复核"
+    },
+    {
+      "id": "loan",
+      "title": "宁波住房公积金贷款政策",
+      "url": "https://map.cmbchina.com/0574/branchnews/20260511news1.htm",
+      "issuer": "招商银行宁波分行",
+      "effectiveFrom": "2026-03-30",
+      "note": "首次首套普通最高额度160万元，连续缴存至少6个月，余额计算倍数25；同时受用户确认额度限制。",
+      "reviewStatus": "办理机构资料交叉核对"
+    },
+    {
+      "id": "loan-notice",
+      "title": "宁波公积金缴存使用政策调整",
+      "url": "https://zjw.ningbo.gov.cn/col/col1229126238/art/2026/art_112bbc2a4c164fe5ae88ceda578786de.html",
+      "issuer": "宁波市住房公积金管理委员会",
+      "effectiveFrom": "2026-03-30",
+      "note": "其他普通类别最高130万元；本版仅开放普通首套，不计算特殊上浮。原站访问受限，已对照官方发布转载及办理机构说明。",
+      "reviewStatus": "原站访问受限；转载交叉核对"
+    },
+    {
+      "id": "withdrawal",
+      "title": "宁波公积金提取与保底额度调整",
+      "url": "https://www.zfgjj.cn/tjgjjcms/mainSitePc/content/pc_xwdt/xwdt_hyxw/xwdt_hyxw/343754.html",
+      "issuer": "天津市住房公积金管理中心转载",
+      "effectiveFrom": "2024-05-01",
+      "note": "余额计算额度不足25万元的按25万元保底；还贷提取限已偿还的本息。本模型次月提取，保底不代表贷款审批承诺。",
+      "reviewStatus": "公积金管理机构转载核对"
+    },
+    {
+      "id": "rate",
+      "title": "个人住房公积金贷款利率调整",
+      "url": "https://app.www.gov.cn/govdata/gov/202505/07/528461/article.html",
+      "issuer": "中国人民银行、中国政府网",
+      "effectiveFrom": "2025-05-08",
+      "note": "首套公积金贷款5年以内（含）2.1%，5年以上2.6%；自定义报价作为用户假设保留。",
+      "reviewStatus": "官方说明已查阅"
+    },
+    {
+      "id": "social",
+      "title": "浙江2026年度社会保险基数通知",
+      "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html",
+      "issuer": "浙江省人力资源和社会保障厅等",
+      "effectiveFrom": "2026-10-08",
+      "note": "原站访问受限；软件不将未复核的费率和上下限强制套入，使用已确认个人月缴费额或用户确认的基数与比例。",
+      "reviewStatus": "输入参数须确认"
+    }
+  ]
+}

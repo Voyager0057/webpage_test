@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of a modern two-storey house">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe3ef"/><stop offset="1" stop-color="#f4efe6"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="660" cy="110" r="46" fill="#fff" opacity=".55"/>
+  <g fill="#fff" opacity=".7"><ellipse cx="170" cy="110" rx="70" ry="16"/><ellipse cx="220" cy="96" rx="40" ry="16"/><ellipse cx="520" cy="70" rx="50" ry="11"/></g>
+  <path d="M0 470c160-24 300-20 420-8s260 10 380-6v144H0z" fill="#a8c49a"/>
+  <g transform="translate(90 410) scale(1.2)"><rect x="-5" y="0" width="10" height="60" fill="#6b4f3a"/><circle cy="-10" r="42" fill="#3f6b4f"/><circle cx="-24" cy="10" r="28" fill="#3f6b4f"/><circle cx="24" cy="8" r="30" fill="#3f6b4f"/><circle cx="-10" cy="-26" r="20" fill="#fff" opacity=".08"/></g>
+  <g transform="translate(720 420) scale(1.1)"><rect x="-5" y="0" width="10" height="60" fill="#6b4f3a"/><circle cy="-10" r="42" fill="#4d7b5d"/><circle cx="-24" cy="10" r="28" fill="#4d7b5d"/><circle cx="24" cy="8" r="30" fill="#4d7b5d"/><circle cx="-10" cy="-26" r="20" fill="#fff" opacity=".08"/></g>
+  <rect x="180" y="300" width="460" height="240" fill="#f4f1ea"/>
+  <rect x="320" y="180" width="320" height="130" fill="#2b3a44"/>
+  <rect x="300" y="168" width="360" height="16" fill="#1c262d"/>
+  <rect x="160" y="290" width="200" height="14" fill="#1c262d"/>
+  <rect x="180" y="304" width="140" height="236" fill="#c9a27a"/>
+  <path d="M180 330h140M180 360h140M180 390h140M180 420h140M180 450h140M180 480h140M180 510h140" stroke="#b38a62" stroke-width="3"/>
+  <rect x="350" y="200" width="120" height="90" fill="#bcd6e6"/><path d="M350 290l120 -90" stroke="#fff" stroke-width="6" opacity=".35"/><rect x="350" y="200" width="120" height="90" fill="none" stroke="#2b3a44" stroke-width="4"/>
+  <rect x="490" y="200" width="120" height="90" fill="#bcd6e6"/><path d="M490 290l120 -90" stroke="#fff" stroke-width="6" opacity=".35"/><rect x="490" y="200" width="120" height="90" fill="none" stroke="#2b3a44" stroke-width="4"/>
+  <rect x="360" y="340" width="250" height="130" fill="#bcd6e6"/><path d="M360 470l250 -130" stroke="#fff" stroke-width="6" opacity=".35"/><rect x="360" y="340" width="250" height="130" fill="none" stroke="#2b3a44" stroke-width="4"/>
+  <path d="M485 340v130" stroke="#2b3a44" stroke-width="4"/>
+  <rect x="230" y="420" width="60" height="120" fill="#2b3a44"/><circle cx="278" cy="482" r="4" fill="#c8a15a"/>
+  <g fill="#4f7a5a"><circle cx="420" cy="520" r="22"/><circle cx="446" cy="524" r="18"/><circle cx="396" cy="526" r="16"/></g>
+  <g fill="#4f7a5a"><circle cx="600" cy="522" r="22"/><circle cx="626" cy="526" r="18"/><circle cx="576" cy="528" r="16"/></g>
+  <rect y="540" width="800" height="60" fill="#d9d4c7"/>
+  <rect y="536" width="800" height="6" fill="#c4bdad"/>
+</svg>

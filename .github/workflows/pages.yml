@@ -1,0 +1,56 @@
+name: Publish frontend to GitHub Pages
+on:
+  workflow_dispatch:
+    inputs:
+      api_url:
+        description: 'Optional HTTPS API origin; otherwise use the PUBLIC_API_URL repository variable'
+        required: false
+        type: string
+  workflow_run:
+    workflows: ['Verify Homewise']
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && vars.PUBLIC_API_URL != '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+      - name: Check public API, CORS and real calculation
+        env:
+          PUBLIC_API_URL: ${{ inputs.api_url || vars.PUBLIC_API_URL }}
+          PUBLIC_FRONTEND_ORIGIN: https://voyager0057.github.io
+        run: python3 scripts/check_public_api.py
+      - name: Build frontend
+        run: |
+          pnpm --dir frontend install --frozen-lockfile
+          pnpm --dir frontend build
+        env:
+          VITE_API_BASE_URL: ${{ inputs.api_url || vars.PUBLIC_API_URL }}
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

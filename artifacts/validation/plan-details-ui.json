@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-27",
+  "scope": "Five pages and shared plan-details drawer; compact homepage; bilingual labels",
+  "productionBuild": "passed",
+  "i18nChecks": {
+    "passed": 5,
+    "skipped": 0
+  },
+  "browserChecks": {
+    "passedAcrossRuns": 14,
+    "initialFullRunPassed": 12,
+    "initialFullRunFailed": 2,
+    "failureCause": "Test expected unquoted CSV; export correctly quotes fields",
+    "targetedAfterCorrectionPassed": 2,
+    "finalPrintLayoutTargetedPassed": 2,
+    "projects": [
+      "desktop-chromium",
+      "mobile-chromium"
+    ]
+  },
+  "backendChanged": false,
+  "backendTestsRerun": false,
+  "physicalMobileTested": false,
+  "githubUploaded": false,
+  "localUrl": "http://localhost:8080/#/calculator"
+}

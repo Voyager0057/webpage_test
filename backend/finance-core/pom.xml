@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.grp</groupId>
+    <artifactId>finance-parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>finance-core</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

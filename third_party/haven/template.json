@@ -1,0 +1,15 @@
+{
+  "slug": "real-estate",
+  "name": "Haven — Real estate agency website",
+  "category": "business",
+  "description": "Real estate agency template with live property search and filters, listings grid, detail page with specs, mortgage calculator, agent cards and enquiry form.",
+  "tags": ["real estate", "realtor", "property", "listings", "agency", "mortgage"],
+  "pages": ["index.html", "listing.html"],
+  "features": ["Responsive", "Mobile menu", "Property search & filters (vanilla JS over JSON)", "Sort by price / size / newest", "Listings grid with price, beds, baths, area", "Listing detail page driven by ?id=", "Photo gallery placeholders", "Specs table", "Mortgage calculator", "Agent card & enquiry form", "Valuation form", "Floor plan & map blocks", "Original SVG house illustrations", "Works without JS", "No dependencies"],
+  "fonts": [
+    {"family": "Instrument Serif", "source": "Google Fonts", "license": "OFL"},
+    {"family": "Manrope", "source": "Google Fonts", "license": "OFL"}
+  ],
+  "colors": {"brand": "#1f4d45", "accent": "#c8a15a", "bg": "#f7f6f2", "text": "#17211e"},
+  "customizable": {"brand": true, "accent": true, "brandName": true, "heading": true}
+}

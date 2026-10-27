@@ -1,0 +1,23 @@
+.tools/
+.runtime/
+**/node_modules/
+**/target/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+.env
+*.log
+*.mv.db
+*.trace.db
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+tmp/
+output/
+# Local reference demos are separate from the Homewise application.
+demos/
+docs/*.zip

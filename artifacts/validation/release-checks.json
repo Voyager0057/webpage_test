@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27",
+  "repository": "Voyager0057/webpage_test",
+  "engineVersion": "2.0.0",
+  "policyVersion": "NB-2026.10-v2",
+  "tests": {
+    "junitCorePassed": 23,
+    "springHttpPassed": 7,
+    "postgresSkipped": 1,
+    "httpAcceptancePassed": 48,
+    "i18nPassed": 5,
+    "browserJourneysPassed": 14
+  },
+  "productionBuild": "passed",
+  "publicDeployment": "pending hosting selection",
+  "physicalMobileTested": false
+}
